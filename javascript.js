@@ -14,6 +14,7 @@ function validfirstname()
     return false;
   }
 }
+
 function validlastname()
 {
   var lname= document.getElementById("lastname").value;
@@ -46,23 +47,23 @@ function validphone()
     return false;
   }
 }
-function calcorder()
+function validdays()
 {
-
-  var r = document.getElementsByName('vehicle').value;
-if(r =='1'){
-    price=10000;
+  var pname= document.getElementById("days").value;
+  var re3 = /^{2,25}$/;
+  if(re3.test(pname))
+  {
+    document.getElementById("daysprompt").style.color="green";
+    document.getElementById("daysprompt").innerHTML="<strong> VALID </strong>";
+    return true;
+  }
+  else {
+    document.getElementById("daysprompt").style.color="red";
+    document.getElementById("daysprompt").innerHTML="<strong> Enter Days</strong>";
+    return false;
+  }
 }
-else if(r =='2'){
-    price=15000;
-}
 
-
-
-  document.getElementById("orderconfirm").innerHTML="<h2>ORDER SUMMARY :</h2>";
-  document.getElementById("orderconfirm").innerHTML ="<p>"+ username.toUpperCase() + "</br>"+phone+"</p>";
-  document.getElementById("orderconfirm").innerHTML="<p> TOTAL COST: $"+price*days+"</p>" ;
-}
 function fn1(){
   var firstname=document.getElementById("firstname").value;
   var lastname=document.getElementById("lastname").value;
