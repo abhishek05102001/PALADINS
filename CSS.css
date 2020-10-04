@@ -1,0 +1,163 @@
+h1 {
+  display: block;
+  color:black;
+  background-color:grey;
+  font-size: 6em;
+  text-align:center
+  font-weight: bold;
+}
+h5 {
+  display: block;
+  color:BLACK;
+  font-size: 3em;
+  text-align:center
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+    color:#FFD700;
+  font-size: 8em;
+  text-align:right
+  font-weight: bold;
+}
+a{
+    font-size: 1.5em;
+}
+li{
+    font-size: 1.5em;
+}
+h3{
+  display: block;
+  color:white;
+  background-color:Blue;
+  font-size: 4em;
+  text-align:center
+  font-weight:bold;
+
+}
+p2{
+    background-color:#F3A235;
+}
+h4{
+  display: block;
+  color:floralwhite;
+  background-color:#B312E5;
+  font-size: 4em;
+  text-align:center
+  font-weight:bold;
+
+}
+p1 {
+  display: block;
+  color:yellow;
+  background-color:Blue;
+  font-size: 2em;
+  text-align:center
+  font-weight:bold;
+
+}
+p3 {
+
+  color:darkblue;
+  background-color: lightpink;
+  font-size: 2em;
+  text-align:center
+  font-weight:bold;
+
+}
+p {
+  display: block;
+  color:darkblue;
+  background-color:#B19CD9;
+  font-size: 2em;
+  text-align:center
+  font-weight:bold;
+
+}
+.li {
+  display: block;
+  color:darkblue;
+  font-size: 2em;
+  text-align:center
+  font-weight:bold;
+
+}
+body {
+   background-color:#2AF8F6;
+}
+img {
+  border-radius: 50%;
+}
+i2{
+  border-radius: 100%;
+  align="right";
+}
+.info{
+  font-size: 1em;
+  color:green;
+  background-color:yellow;
+  text-align:center
+  font-weight:sbold;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: url("surface.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+  color: floralwhite; }
+  .row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+  .footer {
+  background: #F3A235;
+  margin: 0px auto;
+  padding: 20px 0px; }
+  address {
+    font-size: 2em;
+    margin: 0px;
+    color: #0f0f0f; }
+
+  body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0; }
+
+  .navbar-dark {
+    background-color: lightpink; }
+    * {
+    box-sizing: border-box;
+    text-size: 3em;
+  }
+
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }

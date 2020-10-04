@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+<title>BOOKING FORM</title>
+<script type="text/javascript" src="javascript.js"></script>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+<body>
+
+
+          <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                <div class="container">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="./PAGE1.html"><span class="fa fa-home fa-lg"></span>
+                                    Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./PAGE2.html"><span class="fa fa-info fa-lg"></span>
+                                    About Rovers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./PAGE3.html">
+                                    Booking Form</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </nav>
+  <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1 style="text-align:center">Rover Booking Form</h1>
+      </div>
+      <div class="item">
+        <p3>Name:</p3>
+        <div class="name-item">
+          FIRST NAME:<input id="firstname" type="text" onblur="validfirstname();"/><span id="firstnameprompt"></span><br>
+          <BR>
+          LAST NAME:<input id="lastname" type="text" onblur="validlastname();"/><span id="lastnameprompt"></span><br>
+        </div>
+      </div>
+      <div class="item">
+        <p3>Email:</p3>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p3>Phone:</p3>
+        <input id="phone" type="text" onblur="validphone();"/><span id="phoneprompt"></span><br>
+      </div>
+      <div class="item">
+        <p3>Number of Passengers:</p3>
+        <input type="number" name="name"/>
+      </div>
+      <p3>Number of Days:</p3>
+      <input type="number" name="name" id="days"/>
+    </div>
+      <div class="item">
+        <p3>Contact Address:</p3>
+        <input type="text" name="name" placeholder="Street address" />
+        <input type="text" name="name" placeholder="Street address line 2" />
+        <div class="city-item">
+          <input type="text" name="name" placeholder="City" />
+          <input type="text" name="name" placeholder="Region" />
+          <input type="text" name="name" placeholder="Postal / Zip code" />
+
+        </div>
+      </div>
+      <div class="question">
+        <p3>Vehicle:</p3>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="1" id="radio_1" name="vehicle" onclick="myFunction(this.value)" />
+            <label for="radio_1" class="radio"><span>Rover 1</span></label>
+          </div>
+          <div>
+            <input type="radio" value="2" id="radio_2" name="vehicle" />
+            <label for="radio_2" class="radio"><span>Rover 2</span></label>
+          </div>
+          <div>
+            <input type="radio" value="3" id="radio_3" name="vehicle" />
+            <label for="radio_3" class="radio"><span>Rover 3 </span></label>
+          </div>
+          <div>
+            <input type="radio" value="4" id="radio_4" name="vehicle" />
+            <label for="radio_4" class="radio"><span>Rover 4 </span></label>
+          </div>
+          <br>
+          <button type="button" onclick="fn1()" id="btn1">CONIRM PRICE</button>
+        </div>
+      </div>
+      <div class="item">
+        <p3>Pick Up Date:</p3>
+        <input type="date" name="bdate" />
+        <i class="fas fa-calendar-alt"></i>
+      </div>
+      <div class="item">
+        <p3>Pick Up Time:</p3>
+        <input type="time" name="name" />
+        <i class="fas fa-clock"></i>
+      </div>
+      <div class="item">
+        <p3>If pick up from the Spaceport, please enter spaceport name</p3>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p3>Spacecraft Number:</p3>
+        <input type="text" name="name"/>
+      </div>
+      <div class="item">
+        <p3>Pick Up Point:</p3>
+        <input type="text" name="name" placeholder="Street address" />
+        <input type="text" name="name" placeholder="Street address line 2" />
+        <div class="city-item">
+          <input type="text" name="name" placeholder="City" />
+          <input type="text" name="name" placeholder="Region" />
+          <input type="text" name="name" placeholder="Postal / Zip code" />
+        </div>
+      </div>
+      <div class="item">
+        <p3>Destination:</p3>
+        <input type="text" name="name" placeholder="Street address" />
+        <input type="text" name="name" placeholder="Street address line 2" />
+        <div class="city-item">
+          <input type="text" name="name" placeholder="City" />
+          <input type="text" name="name" placeholder="Region" />
+          <input type="text" name="name" placeholder="Postal / Zip code" />
+
+        </div>
+      </div>
+      <div class="item">
+        <p3>Notes</p3>
+        <textarea rows="3"></textarea>
+
+
+      <div class="btn-block">
+        <button type="submit" href="/">BOOK NOW</button>
+      </div>
+    </form>
+
+</body>
+</html>
